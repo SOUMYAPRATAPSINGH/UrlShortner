@@ -68,14 +68,14 @@ button:focus-visible {
 }
 .App {
   height: 100vh; 
-  width: 180vh;/* Set the height to fill the entire viewport */
+  width:100vw;
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  flex-direction: column; /* Stack elements vertically */
-  text-align: center; /* Center the text */
-  background-color: #f7f9fc; /* Light background color for better UI */
-  font-family: Arial, sans-serif; /* Change font */
+  align-items: center; 
+  flex-direction: column; 
+  text-align: center; 
+  background-color: #f7f9fc; 
+  font-family: Arial, sans-serif; 
 }
 
 form {
