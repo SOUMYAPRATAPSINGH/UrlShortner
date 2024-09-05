@@ -10,7 +10,7 @@ function App() {
     event.preventDefault();
     try {
       const response = await axios.post("http://localhost:3000/url", { url });
-      setHashedUrl(`http://localhost:3000/url/${response.data.hashedUrl}`);
+      setHashedUrl(`${response.data.hashedUrl}`);
     } catch (error) {
       setErrorMessage("Error: Unable to hash URL. Please try again.");
       console.error(error);
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>URL Hashing and Tracking</h1>
+      <h1>Url Hashing & Tracking</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

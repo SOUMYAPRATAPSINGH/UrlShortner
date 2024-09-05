@@ -98,14 +98,14 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: #ff6f00;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #753b08;
 }
 
 p {
