@@ -107,20 +107,8 @@ Make sure to configure the following environment variables in your `.env` file:
 - `PORT`: The port number on which the server should run.
 - `DatabaseUrl`: The MongoDB connection string (Atlas or local MongoDB).
 
-## Running Tests
-To be added in future versions.
-
-## Future Improvements
-- Add user authentication for URL management.
-- Implement analytics dashboards for tracking click trends.
-- Add custom short URLs.
-
-## License
-This project is licensed under the MIT License.
-```
-
 ## Author
-- **Your Name** - [your-github](https://github.com/your-username)
+- SOUMYAPRATAPSINGH - [SOUMYAPRATAPSINGH](https://github.com/SOUMYAPRATAPSINGH)
 ```
 
 ## How to Use:
