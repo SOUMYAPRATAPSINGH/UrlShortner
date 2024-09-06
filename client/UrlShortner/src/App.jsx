@@ -10,7 +10,7 @@ function App() {
     event.preventDefault();
     try {
       const response = await axios.post("http://localhost:3000/url", { url });
-      setHashedUrl(`${response.data.hashedUrl}`);
+      setHashedUrl(`${response.data.shortUrl}`);
     } catch (error) {
       setErrorMessage("Error: Unable to hash URL. Please try again.");
       console.error(error);
